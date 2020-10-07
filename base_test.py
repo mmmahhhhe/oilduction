@@ -1,3 +1,8 @@
-import tests.q as w
+from production import IPR
 
-w.q()
+
+a = IPR.IPR()
+s = a.vogel_1point(10,10,10,25)
+print(s)
+
+

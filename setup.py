@@ -12,10 +12,10 @@ with open(os.path.join(here, 'README.md')) as f:
 with open(os.path.join(here, 'CHANGELOG.md')) as f:
     CHANGES = f.read()
 
-requires = [
-    'pandas',
-    'numpy',
-]
+# requires = [
+#     'pandas',
+#     'numpy',
+# ]
 
 
 setup(
